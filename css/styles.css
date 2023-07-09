@@ -171,3 +171,6 @@ body {
   color: var(--primary-dark-color);
 }
 
+.project-card-desc {
+  color: var(--primary-text-color);
+}

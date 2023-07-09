@@ -15,7 +15,7 @@
 body {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
-  line-height: calc(24/16);
+  line-height: 1.5;
   letter-spacing: 0.32px;
   color: var(--primary-text-color);
   background-color: var(--primary-white-color);
@@ -103,19 +103,6 @@ body {
   background: var(--pressed-color);
 }
 
-/* .visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-} */
-
 .feature-title {
   font-size: 20px;
   font-weight: 500;
@@ -145,7 +132,7 @@ body {
 .team-member {
   font-size: 20px;
   font-weight: 500;
-  line-height: calc(24/20);
+  line-height: 1.2;
   letter-spacing: 0.4px;
   color: var(--primary-dark-color);
 }
@@ -159,13 +146,12 @@ body {
 }
 
 .filter-btn {
-  font-family: inherit;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
-  line-height: calc(24/16);
+  line-height: 1.5;
   letter-spacing: 0.64px;
   color: var(--brand-color);
-  border: 1px solid var(--accent-color);
   background: var(--primary-light-color);
   cursor: pointer;
 }
@@ -180,11 +166,8 @@ body {
 .project-card-title {
   font-size: 20px;
   font-weight: 500;
-  line-height: calc(24/20);
+  line-height: 1.2;
   letter-spacing: 0.4px;
   color: var(--primary-dark-color);
 }
 
-.project-card-desc {
-  color: var(--primary-text-color);
-}

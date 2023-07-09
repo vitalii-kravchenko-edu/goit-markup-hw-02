@@ -143,6 +143,11 @@ body {
   color: var(--primary-dark-color);
 }
 
+.team-member-position {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
 .footer-section {
   background: var(--primary-dark-color);
 }
@@ -181,6 +186,6 @@ body {
 
 .project-card-desc {
   line-height: 1.5;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
   color: var(--primary-text-color);
 }

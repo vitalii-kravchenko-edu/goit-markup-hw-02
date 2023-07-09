@@ -1,22 +1,19 @@
 :root {
-  --brand-color: #4D5AE5;
-  --pressed-color: #404BBF;
-  --primary-dark-color: #2E2F42;
+  --brand-color: #4d5ae5;
+  --pressed-color: #404bbf;
+  --primary-dark-color: #2e2f42;
   --primary-text-color: #434455;
-  --primary-light-color: #F4F4FD;
-  --accent-color: #E7E9FC;
-  --primary-white-color: #FFFFFF;
+  --primary-light-color: #f4f4fd;
+  --accent-color: #e7e9fc;
+  --primary-white-color: #ffffff;
   --hero-btn-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   --filter-btn-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
-    0px 2px 1px 0px rgba(0, 0, 0, 0.08),
-    0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+    0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 }
 
 body {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.32px;
   color: var(--primary-text-color);
   background-color: var(--primary-white-color);
 }
@@ -49,6 +46,8 @@ body {
 
 .nav-link {
   font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
   color: var(--primary-dark-color);
 }
 
@@ -66,7 +65,9 @@ body {
 }
 
 .contact-link {
-  color:  var(--primary-text-color);
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  color: var(--primary-text-color);
 }
 
 .contact-link:hover,
@@ -84,7 +85,7 @@ body {
   line-height: 1.07;
   letter-spacing: 1.12px;
   text-align: center;
-  color:var(--primary-white-color);
+  color: var(--primary-white-color);
 }
 
 .hero-btn {
@@ -109,6 +110,11 @@ body {
   line-height: 1.2;
   letter-spacing: 0.4px;
   color: var(--primary-dark-color);
+}
+
+.feature-text {
+  line-height: 1.5;
+  letter-spacing: 0.32px;
 }
 
 .section-title {
@@ -159,7 +165,7 @@ body {
 .filter-btn:hover,
 .filter-btn:focus,
 .filter-btn:active {
-  color:var(--primary-white-color);
+  color: var(--primary-white-color);
   background: var(--pressed-color);
 }
 
@@ -172,5 +178,7 @@ body {
 }
 
 .project-card-desc {
+  line-height: 1.5;
+  letter-spacing: 0.32px;
   color: var(--primary-text-color);
 }
